@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Fredoka+One&family=Public+Sans:ital,wght@0,700;1,300&family=Roboto&family=Secular+One&display=swap');
+
+* , html{
+    transition: 1s;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    zoom: 0.9;
+}
+
+@media only screen and (max-width: 1028px) {
+    .all{
+        display: none;
+    }
+
+    .mobiledeny{
+        position: absolute;
+        left: 50%;
+        top: 39%;
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+        border: 5px solid #d03779;
+        padding: 23px;
+        min-width: 300px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1028px) {
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 3px;
+            width: 100%;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            z-index: 1;
+        }
+      
+        li {
+            float: right;
+            margin-right: 50px;
+            margin-top: 5px;
+        }
+
+        li a {
+            display: block;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            padding: 23px 10px;
+            text-decoration: none;
+            font-size: 21px;
+            font-family: 'Public Sans', sans-serif;
+        }
+      
+        li a:hover {
+            color: rgb(235, 2, 10);
+            font-weight: bolder;
+            font-size: 27px;
+            transition: 0.3s;
+        }
+
+        .brand{
+            width: 270px;
+            margin: 12px 8px 8px 23px;
+        }
+
+        .intro{
+            background-color: rgb(126, 34, 89);
+            padding: 3.97em 1em 3em 1em;
+            margin: 0;
+        }
+
+      
+        .intro h1{
+            font-family: 'Secular One', sans-serif;         
+            color: rgb(240, 240, 240);
+            margin-top: 100px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        .inputs h3{
+            color: rgb(230, 227, 238);
+            margin: 10px;
+        }
+      
+        .formname{
+            padding: 10px;
+            border-radius: 8px;
+            transition: .5s;
+            display: inline-block;
+            margin: 30px 5px 18px 5px;
+        }
+
+        .inputs p{
+            margin: 37px 5px 50px 5px;
+            color: wheat;
+        }
+
+        .reveal{
+            display: none;
+            margin: 18px 5px 10px 5px;
+        }
+
+        .nextbtn {
+            font-size: 13px;
+            display: inline;
+            padding: 10px 12px 10px 12px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #61af31, #4cc6b4, #5097bb, #3a35cf);
+            background-size: 200%;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            margin: 23px;
+        }
+
+        .usersubmit {
+            font-size: 13px;
+            display: inline;
+            padding: 10px 12px 10px 12px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #7a31af, #bb5050, #bb5050, #cf9e35);
+            background-size: 200%;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            margin: 23px;
+        }
+
+        .nextbtn:hover {
+            background-position: right;
+            font-size: 18px;
+            transition: 0.5s;
+            width: 150px;
+            padding: 10px;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .usersubmit:hover {
+            background-position: right;
+            font-size: 23px;
+            transition: 0.5s;
+            padding: 18px;
+            margin: 20px;
+            border-radius: 100%;
+            font-weight: bold;
+        }
+
+        .solution{
+            display: none;
+            padding: 30px 5px 23px 5px;
+            background-color: rgb(213, 213, 213);
+            transition: 0.5s;
+        }
+
+        .features{
+            background-color: rgb(216, 216, 216);
+            padding: 23px 5px 18px 5px;
+            display: none;
+        }
+
+        .codes{
+            margin: 1px;
+            font-size: 13px;
+            color: #545454;
+        }
+
+        .tutorial{
+            background-color: rgb(123, 156, 210);
+            padding: 63px 5px 100px 5px;
+            color: rgb(252, 252, 252);
+        }
+
+        .tutorial h2{
+            margin: 27px 5px 23px 5px;
+        }
+
+        .tutorial img{
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            min-width: 900px;
+            min-height: 390px;
+            padding: 30px;
+        }
+
+        .footer{
+            padding: 23px 10px 15px 10px;
+            margin: 0;
+            width: 100%;
+            background-color: rgb(235, 235, 235);
+            border-radius: 15px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif; 
+            color: rgb(91, 91, 91);
+            font-weight: bold;
+        }
+
+
+
+        .mobiledeny{
+          display: none;
+        }
+}
