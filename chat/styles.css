@@ -1,0 +1,113 @@
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#message-container {
+    width: 100%;
+    margin-bottom: 100px;
+    max-width: 800px;
+    
+}
+
+#message-container div {
+    background-color: rgb(162, 224, 243);
+    padding: 10px 10px 10px 18px;
+    font-size: 21px;
+}
+
+#message-container div:nth-child(2n) {
+    background-color: rgb(179, 239, 193);
+}
+
+#send-container {
+    position: fixed;
+    padding-bottom: 15px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.navmobile{
+    margin: 0px 0px 30px 0px;
+    padding: 5px 0px 30px 0px;
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(1 1 1 / 18%);
+}
+
+.navmobile img{
+    margin: 30px 10px 1px 10px;
+    max-width: 90%;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 8px 8px 8px 12px;
+    font-size: 23px;
+    margin: 5px 0px 5px 8px;
+    min-width: 10px;
+    border-right: none;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#send-button {
+    margin: 5px 8px 5px 0px;
+    padding: 10px 15px 10px 18px;
+    font-size: 27px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+@media screen and (min-width: 800px) {
+    .navmobile small {
+        font-size: 21px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .navmobile{
+        margin: 0px 0px 30px 0px;
+        padding: 5px 0px 30px 0px;
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;
+        box-shadow: 0px 5px 10px rgba(1 1 1 / 18%);
+    }
+    .navmobile img{
+        margin: 30px 10px 1px 10px;
+        max-width: 37%;
+    }
+    
+    #message-container {
+        margin-bottom: 0px;
+    }
+
+    .navmobile small{
+        font-size: 18px;
+    }
+
+    #message-input {
+        margin: 5px 0px 5px 30px;
+    }
+    
+    #send-button {
+        margin: 5px 30px 5px 0px;
+    }
+
+  }
